@@ -25,7 +25,7 @@ cask "firestore" do
   end
 
   name "firestore"
-  desc "Command line utility to facilitate operations with Firestore"
+  desc "Command-line utility to facilitate operations with Firestore"
   homepage "https://github.com/gugahoi/firestore"
 
   livecheck do
@@ -35,11 +35,8 @@ cask "firestore" do
   binary "firestore"
 
   postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/firestore"]
-    end
+    system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/firestore"] if OS.mac?
   end
 
   # No zap stanza required
-
 end
