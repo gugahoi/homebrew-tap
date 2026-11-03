@@ -1,8 +1,8 @@
 class RexDash < Formula
   desc "Dashboard pane for Rex with agent fleet, PRs and Claude Code usage"
   homepage "https://github.com/gugahoi/rex-dash"
-  url "https://github.com/gugahoi/rex-dash/archive/refs/tags/v1.5.0.tar.gz"
-  sha256 "dd9f49b42dcf8049bd9ca9034ac2c8d8136a88b6454f85e86d088198fdfb0cad"
+  url "https://github.com/gugahoi/rex-dash/archive/refs/tags/v1.6.0.tar.gz"
+  sha256 "173d2647f8239a0467fee2d5a146b2f8c54456e6ae484b1a3f0140b93bb0c84a"
   license "MIT"
 
   depends_on "gh"
