@@ -1,27 +1,27 @@
 class RexDash < Formula
   desc "Dashboard pane for Rex with agent fleet, PRs and Claude Code usage"
   homepage "https://github.com/gugahoi/rex-dash"
-  version "1.8.1"
+  version "1.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gugahoi/rex-dash/releases/download/v1.8.1/rex-dash-v1.8.1-darwin-arm64.tar.gz"
-      sha256 "e6f24ecab0549e64fc4d4e4596826c5385a041067cde68ab02ad8515049ed049"
+      url "https://github.com/gugahoi/rex-dash/releases/download/v1.9.0/rex-dash-v1.9.0-darwin-arm64.tar.gz"
+      sha256 "34aad5e8e75dd1d0536e0f4ba8b650417cef5595cff9cb6b400f6f444ebbee3b"
     end
     on_intel do
-      url "https://github.com/gugahoi/rex-dash/releases/download/v1.8.1/rex-dash-v1.8.1-darwin-x64.tar.gz"
-      sha256 "dd640b91f977a49998689b2f10c821425666e8fc639bc691e3062f22cb124c80"
+      url "https://github.com/gugahoi/rex-dash/releases/download/v1.9.0/rex-dash-v1.9.0-darwin-x64.tar.gz"
+      sha256 "57e667b1a398df64c363f0d977df4bf97df02211431d934553209f0ab322705a"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/gugahoi/rex-dash/releases/download/v1.8.1/rex-dash-v1.8.1-linux-arm64.tar.gz"
-      sha256 "7ebf7a59d86ab7d0c51927bd582471394d0cdec809f51dd5f5234eaf7e51611a"
+      url "https://github.com/gugahoi/rex-dash/releases/download/v1.9.0/rex-dash-v1.9.0-linux-arm64.tar.gz"
+      sha256 "911b8f10875fb4187d671a0613d79eae45f84fe243063462bdd31779ac4e10ef"
     end
     on_intel do
-      url "https://github.com/gugahoi/rex-dash/releases/download/v1.8.1/rex-dash-v1.8.1-linux-x64.tar.gz"
-      sha256 "b440a9a406910ef027e051f045c3789e3df540b27338976fc4c77fa2efb32af9"
+      url "https://github.com/gugahoi/rex-dash/releases/download/v1.9.0/rex-dash-v1.9.0-linux-x64.tar.gz"
+      sha256 "abae168012a6417ef4c6b83143800deb4daa7362dc9fb168af4ae2f95c8ac843"
     end
   end
 
