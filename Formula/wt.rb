@@ -5,23 +5,23 @@ class Wt < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/gugahoi/wt/releases/download/v1.5.1/wt-v1.5.1-darwin-arm64.tar.gz"
-      sha256 "8f313ca311449f26046280d164cf4191b867988ca88b3b9f6c5bfd878d1fe95b"
+      url "https://github.com/gugahoi/wt/releases/download/v1.6.0/wt-v1.6.0-darwin-arm64.tar.gz"
+      sha256 "ff68e2130d5756c4f5e6e82c0a42f2ac965f668dec9ba3b9709a2f25733ff1e9"
     end
     on_intel do
-      url "https://github.com/gugahoi/wt/releases/download/v1.5.1/wt-v1.5.1-darwin-amd64.tar.gz"
-      sha256 "5397d2c4a9ea084b98f3cae835145bd2d2b2fce282e16c0ad9f41e1d8f35a725"
+      url "https://github.com/gugahoi/wt/releases/download/v1.6.0/wt-v1.6.0-darwin-amd64.tar.gz"
+      sha256 "4352f5fdb3a44df639e407677d95f6c71710bf63e7dc0603453f23966f033038"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gugahoi/wt/releases/download/v1.5.1/wt-v1.5.1-linux-arm64.tar.gz"
-      sha256 "0f7d95b75e0f5fcac39309bf298f2f85eb85322357e2bbe9ed9082f622fe41c1"
+      url "https://github.com/gugahoi/wt/releases/download/v1.6.0/wt-v1.6.0-linux-arm64.tar.gz"
+      sha256 "727a81d92c9b2556fe0ff6f833ef602c191640665e7be2ff93f74226b9b89693"
     end
     on_intel do
-      url "https://github.com/gugahoi/wt/releases/download/v1.5.1/wt-v1.5.1-linux-amd64.tar.gz"
-      sha256 "7e07da209c74bcd3b75b5c60743c960ad5e4619665a54b601b0de19d4a918935"
+      url "https://github.com/gugahoi/wt/releases/download/v1.6.0/wt-v1.6.0-linux-amd64.tar.gz"
+      sha256 "610a3839940596864c06c88f19efd0a685afcb863f79dcd40bd01034cf2d102f"
     end
   end
 
